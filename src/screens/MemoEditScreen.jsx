@@ -4,16 +4,17 @@ import {
 
 import AppBar from '../components/AppBar';
 import CirclButton from '../components/CircleButton';
+import KeyboardSafeView from '../components/KeybordSafeView';
 
 export default function MemoEditScreen() {
   return (
-    <KeyboardAvoidingView style={styles.container} behavior="height">
+    <KeyboardSafeView style={styles.container} behavior="height">
       <AppBar />
       <View style={styles.inputContainer}>
         <TextInput value="買い物リスト" multiline style={styles.input} />
       </View>
       <CirclButton name="check" />
-    </KeyboardAvoidingView>
+    </KeyboardSafeView>
   );
 }
 
