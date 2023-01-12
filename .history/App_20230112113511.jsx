@@ -116,5 +116,5 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     fontSize: 40,
     lineHeight: 40,
-  },
+  }
 });

@@ -103,18 +103,10 @@ const styles = StyleSheet.create({
     borderRadius: 32,
     justifyContent: 'center',
     alignItems: 'center',
-    position: 'absolute',
-    right: 40,
-    bottom: 40,
-    shadowColor: '#000000',
-    shadowOffset: { width: 0, height: 8 },
-    shadowOpacity: 0.25,
-    shadowRadius: 8,
-    elevation: 8,
   },
   circleButonnLabel: {
     color: '#FFFFFF',
     fontSize: 40,
     lineHeight: 40,
-  },
+  }
 });

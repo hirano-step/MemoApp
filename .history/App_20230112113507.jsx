@@ -110,11 +110,11 @@ const styles = StyleSheet.create({
     shadowOffset: { width: 0, height: 8 },
     shadowOpacity: 0.25,
     shadowRadius: 8,
-    elevation: 8,
+    elevation: 3,
   },
   circleButonnLabel: {
     color: '#FFFFFF',
     fontSize: 40,
     lineHeight: 40,
-  },
+  }
 });
