@@ -1,5 +1,5 @@
 import {
-  View, StyleSheet, TextInput, KeyboardAvoidingView,
+  View, StyleSheet, TextInput,
 } from 'react-native';
 
 import AppBar from '../components/AppBar';
